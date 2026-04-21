@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.80" multi-file="no" uid="simp32e6b9c95273470ab21919cbdca0dbc8">
+  <meta>
+    <name>Project</name>
+    <authors> 劉宏緯</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type stereotype="struct" type-id="class" type="UmlClass" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>199</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>8</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>33</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>40</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-0b6c7f5485ae42169094c17cc00f8e15" name="" task-id-sequence="0">
+    <persons>
+      <person id="Pa0989562ec3940478b156bf051ff14f4">
+        <first-name />
+        <last-name>劉宏緯</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-7a836afa73604e19af93fc39ddb3b1cd" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="string" tid="" name="string" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="bool" tid="" name="bool" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pd4bd18e05595470b9eb6c70e2a93c344_451465167" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> 劉宏緯</author>
+        </authors>
+        <description />
+        <creation-date>04/21/2026 19:08:57</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p4904d6ccdbc741049d4f8b277bc270ce_536828910" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> 劉宏緯</author>
+          </authors>
+          <description />
+          <creation-date>04/21/2026 19:08:57</creation-date>
+          <change-date>04/21/2026 19:38:33</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="9742d9150b4a4d04b92127f961916037" cid="C005" type="class" name="Player" style-class="" visibility="package" change-tracking-state="added" creator="Pa0989562ec3940478b156bf051ff14f4" creation-date="04/21/2026 19:13:27">
+            <style class="default" />
+            <attributes>
+              <attribute id="af4b0a7c566ea40178098ed47400c8f3b905" cid="ELEM013" name="job" creation-date="01/01/0001 00:00:00" type="string" type-id="string" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a7aad728828414d1bbd32f11dd6346050950" cid="ELEM014" name="level" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a7adb47893e6e4afbbdc6db8c9626618f44" cid="ELEM015" name="maxHp" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae1b3680425174e8b8b2f8027f09c9d6c196" cid="ELEM016" name="shield" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3c5b79926ec24926914b111de3fe9a60356" cid="ELEM017" name="mp" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a1050b1719fa04b6f95b663a5da456668664" cid="ELEM018" name="maxMp" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5bf663b42ad24f68a115412891650520988" cid="ELEM019" name="attack" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3f6f52b16d4c4100bcd28e9a925177d3154" cid="ELEM020" name="skillPower" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a21dfb0ba4fa948e7a9175b1f3a0b891c134" cid="ELEM021" name="gold" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a0f47dafdcadd4d8ca0ed45d4cd3f4e3335" cid="ELEM022" name="deathCount" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o09687c56846d4019837eb4112175bdd4678" cid="ELEM024" name="showStatus" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="off5ebcbf813e4e7293a7e30c1a885501104" cid="ELEM025" name="levelUp" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o92440445bae04e838cccc673735e7bd798" cid="ELEM026" name="revive" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="ad66851a75c74e7dbb581518688540a0" cid="C006" type="class" name="Monster" style-class="" visibility="package" change-tracking-state="added" creator="Pa0989562ec3940478b156bf051ff14f4" creation-date="04/21/2026 19:16:01">
+            <style class="default" />
+            <attributes>
+              <attribute id="a3eb841e6dccd491c85953bde9c564583291" cid="ELEM027" name="name" creation-date="01/01/0001 00:00:00" type="string" type-id="string" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a8127ec58ed3544aeb8752848f09356c2667" cid="ELEM028" name="hp" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="afd74dc55c78347599c5cb03ab0395bc2990" cid="ELEM029" name="attack" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="of72741f83e2b41d5b89755206471506c602" cid="ELEM030" name="attackPlayer" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="b63347b547144976b9e03b5ba6a99dfb" cid="C007" type="class" name="Game" style-class="" visibility="package" change-tracking-state="added" creator="Pa0989562ec3940478b156bf051ff14f4" creation-date="04/21/2026 19:16:57">
+            <style class="default" />
+            <attributes>
+              <attribute id="aa67499290c524173b41cdbfd9d0667da70" cid="ELEM031" name="floor" creation-date="01/01/0001 00:00:00" type="int" type-id="int" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="aff4dafbf5b454ed69101184cb14cfc61512" cid="ELEM032" name="hiddenStageDone" creation-date="01/01/0001 00:00:00" type="bool" type-id="bool" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="of08940ece06043279bb6de55e8af99d3762" cid="ELEM033" name="createPlayer" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o5a64b8d2e41c493f92c3b65ecc23e225527" cid="ELEM034" name="createMonster" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o17c4a59a08e34b8aad6f2e11219ffe1f700" cid="ELEM035" name="battle" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o74050625e28c49da96c903479a920f2d827" cid="ELEM036" name="rewardFloor" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oc6fd6d2101144f73ad0d4529c57ab1a5538" cid="ELEM037" name="chestFightEvent" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o3cd5554f4bc045ee8249b029142a7c1b547" cid="ELEM038" name="finalTreasure" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="oc6a38b2e8d8d463db91f1383c98858cc325" cid="ELEM039" name="startGame" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="e32f182505fc4e0a9b59e7569431be68" cid="REL002" type="relationship" name="uses " style-class="" visibility="package" change-tracking-state="added" creator="Pa0989562ec3940478b156bf051ff14f4" creation-date="04/21/2026 19:37:11" from="9742d9150b4a4d04b92127f961916037" to="b63347b547144976b9e03b5ba6a99dfb">
+            <style class="default" />
+            <relation from="9742d9150b4a4d04b92127f961916037" to="b63347b547144976b9e03b5ba6a99dfb">
+              <start-role id="umlar-2ad2c049-6993-4de0-8f1e-33473929696a" name="" navigability="yes" association-type="association" visibility="private" />
+              <end-role id="umlar-20309f03-440c-4a87-b987-cce87d3b5b01" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="a75b71d0cf944f47978a274ca4a49b64" cid="REL005" type="relationship" name="creates " style-class="" visibility="package" change-tracking-state="added" creator="Pa0989562ec3940478b156bf051ff14f4" creation-date="04/21/2026 19:37:59" from="b63347b547144976b9e03b5ba6a99dfb" to="ad66851a75c74e7dbb581518688540a0">
+            <style class="default" />
+            <relation from="b63347b547144976b9e03b5ba6a99dfb" to="ad66851a75c74e7dbb581518688540a0">
+              <start-role id="umlar-5fea6409-47d9-48bf-8645-14a684382e5c" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-03516e28-9db1-4dac-bb31-24126d751caf" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="9d76a85053ae4d38947b11e1323a4029" cid="REL007" type="relationship" name="fights " style-class="" visibility="package" change-tracking-state="added" creator="Pa0989562ec3940478b156bf051ff14f4" creation-date="04/21/2026 19:38:33" from="9742d9150b4a4d04b92127f961916037" to="ad66851a75c74e7dbb581518688540a0">
+            <style class="default" />
+            <relation from="9742d9150b4a4d04b92127f961916037" to="ad66851a75c74e7dbb581518688540a0">
+              <start-role id="umlar-9394a182-42b2-4bcc-8c31-2cf93b049169" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-1009b00f-0356-4584-817c-ddd7d4c4f124" name="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="fc5885ec492b44f2a318080d5ff260b8" name="Default" visible="true" enabled="true" locked="false">
+          <item id="9742d9150b4a4d04b92127f961916037" iid="64a929c2ae1544199ea4ba4ce56eb67e" anchor="None" creation-date="04/21/2026 19:13:27" order-index="0" type="entity">
+            <layout ax="22" ay="341" awidth="140" aheight="270" x="22" y="341" width="140" height="270" />
+            <class />
+          </item>
+          <item id="ad66851a75c74e7dbb581518688540a0" iid="de25fa394ffd425397f71ac859360027" anchor="None" creation-date="04/21/2026 19:16:01" order-index="1" type="entity">
+            <layout ax="284" ay="341" awidth="140" aheight="160" x="284" y="341" width="140" height="160" />
+            <class />
+          </item>
+          <item id="b63347b547144976b9e03b5ba6a99dfb" iid="c0082dd92e7d4876bd58647876f5c581" anchor="None" creation-date="04/21/2026 19:16:57" order-index="2" type="entity">
+            <layout ax="162" ay="29" awidth="162" aheight="202" x="162" y="29" width="162" height="202" />
+            <class />
+          </item>
+          <item id="e32f182505fc4e0a9b59e7569431be68" iid="68b2d1287d2949839c66db981308b115" creation-date="04/21/2026 19:37:11" order-index="3" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="151" y1="341" x2="199" y2="231" start-border-pos="0.230207470485142" end-border-pos="0.693021656554422" name-position="0,0">
+              <points>
+                <point x="151" y="341" />
+                <point x="199" y="231" />
+              </points>
+            </layout>
+            <relation from="9742d9150b4a4d04b92127f961916037" from-iid="64a929c2ae1544199ea4ba4ce56eb67e" to="b63347b547144976b9e03b5ba6a99dfb" to-iid="c0082dd92e7d4876bd58647876f5c581" />
+          </item>
+          <item id="a75b71d0cf944f47978a274ca4a49b64" iid="740ab8d5503f4be6932d8b3cc2392a20" creation-date="04/21/2026 19:37:59" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="293" y1="231" x2="323" y2="341" start-border-pos="0.54783950617284" end-border-pos="0.0696428571428571" name-position="0,0">
+              <points>
+                <point x="293" y="231" />
+                <point x="323" y="341" />
+              </points>
+            </layout>
+            <relation from="b63347b547144976b9e03b5ba6a99dfb" from-iid="c0082dd92e7d4876bd58647876f5c581" to="ad66851a75c74e7dbb581518688540a0" to-iid="de25fa394ffd425397f71ac859360027" />
+          </item>
+          <item id="9d76a85053ae4d38947b11e1323a4029" iid="f0700c03df504ba5a92f784093580391" creation-date="04/21/2026 19:38:33" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="162" y1="476" x2="284" y2="458" start-border-pos="0.375" end-border-pos="0.8171875" name-position="0,0">
+              <points>
+                <point x="162" y="476" />
+                <point x="284" y="458" />
+              </points>
+            </layout>
+            <relation from="9742d9150b4a4d04b92127f961916037" from-iid="64a929c2ae1544199ea4ba4ce56eb67e" to="ad66851a75c74e7dbb581518688540a0" to-iid="de25fa394ffd425397f71ac859360027" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
