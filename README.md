@@ -19,6 +19,6 @@
 <img width="1550" height="1086" alt="螢幕擷取畫面 2026-06-08 214305" src="https://github.com/user-attachments/assets/df99cc17-647c-482e-8bf5-ffefa87aacbd" />
 <img width="1047" height="926" alt="螢幕擷取畫面 2026-06-08 213850" src="https://github.com/user-attachments/assets/ae6a646a-7b5f-426c-b20c-74f9a50ee661" />
 <img width="1188" height="1085" alt="螢幕擷取畫面 2026-06-08 212818" src="https://github.com/user-attachments/assets/30c1470e-64b1-4ec9-8af5-338ae5b7b7d5" />
-**### 劉宏緯 Coding、PPT、內容發想、除錯測試**
-**### 洪巧穎 Coding、PPT、內容發想、除錯測試**
-**### 許睿容 Coding、PPT、內容發想、除錯測試**
+劉宏緯 Coding、PPT、內容發想、除錯測試
+洪巧穎 Coding、PPT、內容發想、除錯測試
+許睿容 Coding、PPT、內容發想、除錯測試
